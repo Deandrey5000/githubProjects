@@ -5,7 +5,7 @@
 <style>
 body {margin: 0;}
 
-ul.topnav {
+ul.sidenav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,9 +13,9 @@ ul.topnav {
   background-color: #333;
 }
 
-ul.topnav li {float: left;}
+ul.sidenav li {float: left;}
 
-ul.topnav li a {
+ul.sidenav li a {
   display: block;
   color: white;
   text-align: center;
@@ -23,21 +23,21 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.sidenav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #04AA6D;}
+ul.sidenav li a.active {background-color: #04AA6D;}
 
-ul.topnav li.right {float: right;}
+ul.sidenav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  ul.sidenav li.right, 
+  ul.sidenav li {float: none;}
 }
 </style>
 </head>
 <body>
 
-<ul class="topnav">
+<ul class="sidenav">
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#payments">Payments</a></li>
   <li><a href="#maintenance">Maintenance</a></li>
@@ -46,7 +46,7 @@ ul.topnav li.right {float: right;}
   <li><a href="#property details">Property Details</a></li>
   <li><a href="#account profile">Account Profile</a></li>
   <li><a href="#help">Help</a></li>
-  <li class="right"><a href="#about">About</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
 
 <div style="padding:0 16px;">
