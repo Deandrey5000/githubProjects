@@ -5,7 +5,7 @@
 <style>
 body {margin: 0;}
 
-ul.sidenav {
+li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,9 +13,9 @@ ul.sidenav {
   background-color: #333;
 }
 
-ul.sidenav li {float: left;}
+li {float: left;}
 
-ul.sidenav li a {
+li a {
   display: block;
   color: white;
   text-align: center;
@@ -23,21 +23,21 @@ ul.sidenav li a {
   text-decoration: none;
 }
 
-ul.sidenav li a:hover:not(.active) {background-color: #111;}
+li a:hover:not(.active) {background-color: #111;}
 
-ul.sidenav li a.active {background-color: #04AA6D;}
+li a.active {background-color: #04AA6D;}
 
-ul.sidenav li.right {float: right;}
+li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.sidenav li.right, 
-  ul.sidenav li {float: none;}
+  li.right, 
+  li {float: none;}
 }
 </style>
 </head>
 <body>
 
-<ul class="sidenav">
+<ul>
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#payments">Payments</a></li>
   <li><a href="#maintenance">Maintenance</a></li>
