@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Forestal Property Management</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body id=forestalPropertyManagement">
+<body id="myPage">
 
 <!-- Sidebar on click -->
 <nav class="property management-sidebar property management-bar-block property management-white property management-card property management-animate-left property management-xxlarge" style="display:none;z-index:2" id="mySidebar">
@@ -22,24 +22,36 @@
   <a href="#" class="property management-bar-item property management-button">Link 5</a>
 </nav>
 
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
 <!-- Navbar -->
-<div class="property management-top">
- <div class="property management-bar property management-theme-d2 property management-left-align">
-  <a class="property management-bar-item property management-button property management-hide-medium property management-hide-large property management-right property management-hover-white property management-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="property management-bar-item property management-button property management-teal"><i class="fa fa-home property management-margin-right"></i>Logo</a>
-  <a href="#maintenance" class="property management-bar-item property management-button property management-hide-small property management-hover-white">Mainteneance</a>
-  <a href="#contact us" class="property management-bar-item property management-button property management-hide-small property management-hover-white">Contact Us</a>
-  <a href="#property details" class="property management-bar-item property management-button property management-hide-small property management-hover-white">Property Details</a>
-  <a href="#account profile" class="property management-bar-item property management-button property management-hide-small property management-hover-white">Account Profile</a>
-    <div class="property management-payments-hover property management-hide-small">
-    <button class="property management-button" title="Notifications">Payments <i class="fa fa-caret-down"></i></button>     
-    <div class="property management-payments-content property management-card-4 property management-bar-block">
-      <a href="#" class="property management-bar-item property management-button">Pay rent</a>
-      <a href="#" class="property management-bar-item property management-button">Payments History</a>
-      <a href="#" class="property management-bar-item property management-button">Shared Documents</a>
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
     </div>
   </div>
-  <a href="#" class="property management-bar-item property management-button property management-hide-small property management-right property management-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
  </div>
 
   <!-- Navbar on small screens -->
@@ -51,7 +63,6 @@
     <a href="#" class="w3-bar-item w3-button">Search</a>
   </div>
 </div>
-
 <!-- Image Header -->
 <div class="w3-display-container w3-animate-opacity">
   <img src="/w3images/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
